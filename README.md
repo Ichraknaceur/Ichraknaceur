@@ -71,7 +71,7 @@ ichrak = {
 
 ## 🚀 Featured Projects
 
-### 🎓 [CourseRAG API](https://github.com/inokufu/COURSERAGAPI)
+### 🎓 [CourseRAG API](https://github.com/inokufu/COURSERAGAPI) — Inokufu Open Source
 > Semantic course retrieval + LLM-powered recommendations for EdTech
 
 `FastAPI` `FAISS` `Sentence-Transformers` `OpenAI` `Anthropic` `Hexagonal Architecture`
@@ -80,21 +80,21 @@ Hexagonal architecture with pluggable vector backends (FAISS / Qdrant / Milvus) 
 
 ---
 
-### 🔍 [RAG Hallucination Evaluator](https://github.com/Ichraknaceur/rag-hallucination-eval)
-> End-to-end framework for evaluating and correcting hallucinations in RAG pipelines
+### 🔍 RAG Hallucination Evaluator
+> Research framework for evaluating and diagnosing hallucinations in RAG pipelines
 
 `Claude API` `LangGraph` `ChromaDB` `FastAPI` `Docker`
 
-Uses Claude API as an LLM-as-a-Judge with an iterative generate → evaluate → correct loop. Measures groundedness, faithfulness, and relevance. Directly tied to PhD research on hallucination analysis.
+Uses Claude API as an LLM-as-a-Judge with an iterative generate → evaluate → correct loop. Measures groundedness, faithfulness, and relevance. Core contribution of the ISMIS 2026 paper on hallucination diagnosis in RAG-based educational systems.
 
 ---
 
-### 🎯 [BERT4Rec + RAG Recommender](https://github.com/Ichraknaceur/bert4rec-rag-recommender)
-> Hybrid recommendation system combining sequential models with retrieval-augmented generation
+### 🎯 BERT4Rec + RAG Recommender
+> Research system combining sequential recommendation models with retrieval-augmented generation
 
 `Python` `PyTorch` `BERT4Rec` `RAG` `FAISS` `FastAPI`
 
-End-to-end pipeline integrating user behavior sequences (BERT4Rec) with contextual RAG for educational content recommendations. Backbone of the WISE 2025 and AICCSA 2025 publications.
+End-to-end pipeline integrating user behavior sequences (BERT4Rec) with contextual RAG for educational content recommendations. Backbone of the WISE 2025 and AICCSA 2025 publications (Best Paper).
 
 ---
 
@@ -114,14 +114,6 @@ Clean layered architecture, source-backed answers, and Milvus vector retrieval. 
 
 Multi-agent platform covering content generation (Medium + LinkedIn), editorial scheduling with autopublish, LinkedIn outreach and networking, job tracking, and technical watch. Hexagonal architecture with domain-driven design: `app/` · `domain/` · `services/` · `storage/` · `observability/`.
 
----
-
-### ⚙️ [FastAPI Hexagonal Template](https://github.com/Ichraknaceur/fastapi-hexagonal-template)
-> Production-ready FastAPI template with hexagonal (clean) architecture
-
-`Python` `FastAPI` `Docker` `PostgreSQL` `pytest` `GitHub Actions`
-
-Domain-driven, testable, and CI/CD-ready. Used as the foundation for multiple freelance projects. Designed to separate business logic from infrastructure from day one.
 
 ---
 
